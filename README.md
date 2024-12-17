@@ -1,16 +1,15 @@
 # IT45-Project
 
-Pour compiler le projet, il faut suivre les étapes suivantes : 
+To compile the project, follow these steps:
 
-1. Ajouter les droits d'execution sur le script bash :
+1. Add execution permissions to the bash script:
+	chmod 777 run.sh
 
-chmod 777 run.sh
+2. If there is an error when executing the ./run.sh command:
 
-2. Si jamais il y a une erreur au niveau de l'execution de la commande ./run.sh : ch
+	- Copy the content of the file.
+	- Delete the file.
+	- Create a new file named run.sh and paste the content into it.
+The error occurs because run.sh was created on Windows, and there might be an issue during conversion to Linux.
 
-copier le contenu du fichier
-supprimer le fichier
-créer un nouveau fichier run.sh et mettre le contenu dedans
-l'erreur vient du fait que run.sh a été créer sur windows au moment de la conversion sous Linux
-
-3. ./run.sh devrait fonctionnait. Il suffit de modifier le nom de l'instance à tester dans le fichier config.py afin de tester différentes instances du problème.
+3. ./run.sh should now work. Simply modify the instance name to test in the config.py file to test different problem instances.
