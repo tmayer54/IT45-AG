@@ -1,0 +1,17 @@
+CROSSOVER_PROBABILITY = 0.7
+MUTATION_PROBABILITY = 0.08 
+ASSIGNATION_PROBABILITY = 0.8
+POPULATION_SIZE = 100
+NUMBER_OF_GENERATIONS = 100
+
+MAX_WORKING_HOURS_PER_WEEK = 35*60
+MAX_WORKING_HOURS_PER_DAY = 7*60
+MAX_WORKING_HOURS_PER_DAY_AMPLITUDE = 13*60
+
+path1 = '../instances/'
+path2 = '30Missions-2centres/'
+
+PATH_DISTANCES = path1 +  path2 +'distances.csv'
+PATH_CENTERS = path1 +  path2 +'centers.csv'
+PATH_EMPLOYEES = path1 +  path2 +'employees.csv'
+PATH_MISSIONS = path1 +  path2 +'missions.csv'
